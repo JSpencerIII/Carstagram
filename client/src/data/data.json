@@ -1,0 +1,72 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Smith",
+            "username": "@jsmitty",
+            "email": "jsmitty@email.com",
+            "password": "abc123",
+            "images": ["/car1.png", "/car2.png", "/car3.png"]
+        },
+        {
+            "id": 2,
+            "name": "Lion Crutch",
+            "username": "@TheLion",
+            "email": "GreatRoar@email.com",
+            "password": "abc123",
+            "images": ["/car1.png", "/car2.png", "/car3.png"]
+        },
+        {
+            "id": 3,
+            "name": "Tigre lunar",
+            "username": "@LandingLunar",
+            "email": "tigerl@email.com",
+            "password": "abc123",
+            "images": ["/car1.png", "/car2.png", "/car3.png"]
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "title": "Car enthusiast",
+            "image": "/car1.png",
+            "description": "This is a car enthusiast post"
+        },
+        {
+            "id": 2,
+            "userId": 1,
+            "title": "Car enthusiast",
+            "image": "/car1.png",
+            "description": "This is a car enthusiast post"
+        },
+        {
+            "id": 3,
+            "userId": 1,
+            "title": "Car enthusiast",
+            "image": "/car1.png",
+            "description": "This is a car enthusiast post"
+        },
+        {
+            "id": 4,
+            "userId": 2,
+            "title": "Car enthusiast",
+            "image": "/car1.png",
+            "description": "This is a car enthusiast post"
+        },
+        {
+            "id": 5,
+            "userId": 2,
+            "title": "Car enthusiast",
+            "image": "/car1.png",
+            "description": "This is a car enthusiast post"
+        },
+        {
+            "id": 6,
+            "userId": 3,
+            "title": "Car enthusiast",
+            "image": "/car1.png",
+            "description": "This is a car enthusiast post"
+        }
+    ]
+}
