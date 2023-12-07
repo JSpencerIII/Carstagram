@@ -6,6 +6,7 @@ import { AxiosResponse } from "axios";
 export const useGetPostsQuery = () => {
   return useQuery({
     queryKey: ["posts"],
-    queryFn: async () => (await axiosClient.get<Post[], AxiosResponse>("/posts")).data //cache over fetching
+    queryFn: async () => (await axiosClient.get<Post[], AxiosResponse<Post[]>>("/posts")).data,
+    initialData: [] //cache over fetching
   });
 }

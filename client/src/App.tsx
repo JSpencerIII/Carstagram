@@ -1,22 +1,23 @@
+import { Container } from "react-bootstrap";
 import { useGetPostsQuery } from "./api/hooks/useGetPostsQuery";
 import { Post } from "./types/post";
+import { PostCard } from "./components/PostCard";
 
 const App = () => {
+  // @name  useGetPostsQuery
+  // @desc  returns an array of posts of type: Post[]
   const { data: posts, isLoading } = useGetPostsQuery()
+
+  // React Query Is Loading State
   if (isLoading) return <div>Loading...</div>
+
   return (
-    <div>
-      <h1>Posts</h1>
-      <ul>
-        {posts?.map((post: Post) => (
-          <li key={post.id}>
-            <div>{post.title}</div>
-            <div>{post.image}</div>
-            <div>{post.userId}</div>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <Container>
+      <h1 className="text-center">Posts</h1>
+      {posts && posts.map(post => (
+        <PostCard key={post.id} {...post} />
+      ))}
+    </Container>
   )
 }
 

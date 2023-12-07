@@ -30,42 +30,42 @@
             "id": 1,
             "userId": 1,
             "title": "Car enthusiast",
-            "image": "/car1.png",
+            "images": ["/car1.png", "/car2.png", "/car3.png"],
             "description": "This is a car enthusiast post"
         },
         {
             "id": 2,
             "userId": 1,
             "title": "Car enthusiast",
-            "image": "/car1.png",
+            "images": ["/car1.png", "/car2.png", "/car3.png"],
             "description": "This is a car enthusiast post"
         },
         {
             "id": 3,
             "userId": 1,
             "title": "Car enthusiast",
-            "image": "/car1.png",
+            "images": ["/car1.png", "/car2.png", "/car3.png"],
             "description": "This is a car enthusiast post"
         },
         {
             "id": 4,
             "userId": 2,
             "title": "Car enthusiast",
-            "image": "/car1.png",
+            "images": ["/car1.png", "/car2.png", "/car3.png"],
             "description": "This is a car enthusiast post"
         },
         {
             "id": 5,
             "userId": 2,
             "title": "Car enthusiast",
-            "image": "/car1.png",
+            "images": ["/car1.png", "/car2.png", "/car3.png"],
             "description": "This is a car enthusiast post"
         },
         {
             "id": 6,
             "userId": 3,
             "title": "Car enthusiast",
-            "image": "/car1.png",
+            "images": ["/car1.png", "/car2.png", "/car3.png"],
             "description": "This is a car enthusiast post"
         }
     ]
