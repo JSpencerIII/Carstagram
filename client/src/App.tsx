@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 import { useGetPostsQuery } from "./api/hooks/useGetPostsQuery";
-import { Post } from "./types/post";
 import { PostCard } from "./components/PostCard";
 
 const App = () => {
